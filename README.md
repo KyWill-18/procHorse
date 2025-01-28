@@ -1,6 +1,6 @@
 # procHorse
-
-**Constant int -> NUM_HORSES = 5
+```
+Constant int -> NUM_HORSES = 5
 Constant int -> TRACK_LENGTH = 15
 
 main()
@@ -28,7 +28,7 @@ result = false
 if # horse = TRACK_LENGTH
 result = true
   print "Horse {id} won!"
-return result**
-
+return result
+```
 
   
