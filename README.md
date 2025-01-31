@@ -12,7 +12,7 @@ advance horse (addOne)
 print each horse's land
 if horse won,
   keepGoing = false
-ask user for input (space bar) to start next turn (move horses again)
+ask user for input (enter) to start next turn (move horses again)
 
 
 printLane()
