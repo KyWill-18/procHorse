@@ -5,11 +5,11 @@
 
 void advance(int horseNum, int* horses);
 void printLane(int horseNum, int* horses);
-bool isWinnier(int horseNum, int* horses);
+bool isWinner(int horseNum, int* horses);
 
 
 const int NUM_HORSES = 5;
-const int RACE_LENGTH = 15;
+const int LANE_LENGTH = 15;
 
 std::random_device rd;
 std::uniform_int_distribution<int> dist(0,1);
@@ -23,7 +23,7 @@ int main(){
                 for(int hn = 0; hn < NUM_HORSES; hn++){
                         advance(hn, horses);
                         printLane(hn, horses);
-                        if (isWinner (horseNum, horses)){
+                        if (isWinner(hn, horses)){
                                 keepGoing = false;
                         }
                 }
